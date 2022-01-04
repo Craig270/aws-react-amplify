@@ -40,7 +40,7 @@
 }
 
 .intro .left .imgContainer {
-  width: 100%;
+  width: 90%;
   height: 100%;
   background-color: #9fcad6;
   border-radius: 50%;
@@ -70,7 +70,7 @@
 
 @media (max-width: 768px) {
   .intro .left .imgContainer img {
-    height: 50%;
+    height: 100%;
   }
 }
 
