@@ -1,0 +1,13 @@
+@import "../../global.scss";
+
+.header {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+
+  // outline: 3px solid purple;
+  max-width: 89%;
+  color: $primaryText;
+  padding: 0.1em;
+  background-color: $primaryBackground;
+}

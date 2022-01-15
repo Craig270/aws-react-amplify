@@ -1,21 +1,8 @@
-.app {
-  height: 100vh;
-  .sections {
-    width: 100%;
-    height: calc(100vh - 70px);
-    background-color: lightsalmon;
-    position: relative;
-    top: 70px;
-    scroll-behavior: smooth;
-    scroll-snap-type: y proximity;
-    scrollbar-width: none;
-    &::-webkit-scrollbar {
-      display: none;
-    }
-    > * {
-      width: 100vs;
-      height: calc(100vh - 70px);
-      scroll-snap-align: start;
-    }
-  }
+@import "./global.scss";
+
+.App {
+  // outline: 1px solid red;
+  background-color: $primaryBackground;
+  max-width: 100%;
+  max-height: 100%;
 }

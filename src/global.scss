@@ -1,11 +1,14 @@
-$mainColor: #9fcad6;
-$textColor: #adaa9d;
-
-$width: 768px;
-
-@mixin mobile {
-  @media (max-width: #{$width}) {
-    @content;
-  }
+$primaryBackground: #303133;
+$secondyBackground: #222222;
+$primaryText: #efefef;
+$shirtOrange: #c5573e;
+body {
+  background-color: $secondyBackground;
+  color: $primaryText;
 }
-
+a:link {
+  color: $primaryText;
+}
+a:visited {
+  color: $primaryText;
+}
