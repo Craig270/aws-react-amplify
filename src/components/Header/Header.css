@@ -1,0 +1,15 @@
+.header {
+  font-size: large;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  outline: 3px solid purple;
+  max-width: 89%;
+  margin: 0 auto;
+  color: #efefef;
+  padding: 1em;
+}
+/*# sourceMappingURL=Header.css.map */
